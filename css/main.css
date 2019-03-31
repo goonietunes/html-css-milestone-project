@@ -1,0 +1,201 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: ff-meta-web-pro, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #313131;
+	margin: 0;
+}
+ 
+#wrapper {
+	width: 100%;
+	margin: 0;
+}
+
+header {
+	height: 800px;
+	margin: 0;
+}
+
+#about {
+	height: 800px;
+	background-color: #fbe9e7;
+	margin: 0;
+}
+
+#work {
+	height: 2000px;
+	margin: 0;
+}
+
+#contact {
+	position: relative;
+	height: 600px;
+	background-color: #c8b7b5;
+	margin: 0;
+}
+
+.third-width {
+	width: 33.33%;
+}
+
+.two-thirds-width {
+	width: 66.67%;
+	margin-left: 400px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+section {
+	margin: 0;
+}
+
+h3 {
+	display: block;
+	width: 200px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: right;
+	margin-top: 0;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	padding-top: 100px;
+	padding-right: 100px;
+}
+
+/***** HEADER SECTION *****/
+
+header p {
+	display: block;
+	font-weight: bold;
+	color: #313131;
+	letter-spacing: 7px;
+	float: left;
+	margin: 0 0 0 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header p a {
+	color: #313131;
+	text-decoration: none;
+}
+
+nav {
+	margin-bottom: 150px;
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+nav a {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #313131;
+}
+
+header h1 {
+	font-family: itc-fenice, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	margin: 0;
+	clear: both;
+}
+
+header h1 span {
+	color: #4f9a94;
+}
+
+header h2 {
+	font-size: 28px;
+	margin: 0;
+}
+
+/***** ABOUT SECTION *****/
+
+#about h4 {
+	font-family: itc-fenice, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px; 
+}
+
+#about p {
+	font-size: 20px;
+	padding-right: 150px
+}
+
+#about p em {
+	font-family: ff-meta-web-pro, sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+
+/***** WORK SECTION *****/
+
+#work h4 {
+	font-family: itc-fenice, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#work h4 > :first-child { margin-top: 0;
+}
+
+#work h5 {
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+#work img {
+	border: 1px solid LightGrey;
+	border-radius: 3px;
+	margin-bottom: 50px;
+}
+
+/***** CONTACT SECTION / FOOTER *****/
+
+#contact p {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+#contact p a {
+	color: #313131;
+	text-decoration: none;
+}
+
+#contact img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#contact small {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+
